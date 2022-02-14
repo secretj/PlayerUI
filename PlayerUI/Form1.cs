@@ -56,6 +56,7 @@ namespace PlayerUI
         }
         private void button2_Click(object sender, EventArgs e)
         {
+            openChildForm(new Form2());
             /*
              * 내 코드 작성
              */
@@ -128,6 +129,7 @@ namespace PlayerUI
         #endregion Playlist
         private void btnEqualizer_Click(object sender, EventArgs e)
         {
+            openChildForm(new Form3());
             /*
             * 내 코드 작성
             */
@@ -207,5 +209,9 @@ namespace PlayerUI
         }
         #endregion
 
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
